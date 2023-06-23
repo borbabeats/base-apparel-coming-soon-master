@@ -1,0 +1,47 @@
+@media screen and (max-width: 1023px) {
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .logo {
+        margin-bottom: 400px;
+    }
+
+    .banner-hero-mobile {
+        display: block;
+        position: absolute;
+        top: 120px;
+        left: 0;
+    }
+
+    .information {
+        max-width: 100%;
+        margin: 50px 32px;
+    }
+
+
+    .information .title, .information .subtitle {
+    display: flex;
+    text-align: center;
+    width: 80%;  
+    }
+
+
+    .information form {
+        width: 90%;
+    }
+
+    .information form > img {
+        left: 230px;
+        margin-top: 12px;
+    }
+
+
+
+    .banner-hero {
+        display: none;
+    }
+}
